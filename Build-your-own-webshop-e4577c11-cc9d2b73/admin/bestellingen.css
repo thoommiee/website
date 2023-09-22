@@ -1,0 +1,50 @@
+/* Stijl voor de bestellingen admin pagina */
+h1 {
+    color: rgb(0, 126, 205);
+    text-align: center;
+    margin: 20px 0;
+}
+
+.order-section {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    margin: 20px;
+    padding: 20px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+}
+
+.order-section h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.order-table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.order-table th, .order-table td {
+    padding: 10px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+.order-table th {
+    background-color: #f2f2f2;
+}
+
+.order-table td {
+    vertical-align: middle;
+}
+
+.removeOrder {
+    margin-top: 35px;
+    margin-bottom: 30px;
+    margin-left: 15px;
+    cursor: pointer;
+    background-color: #11005a;
+    color: #fff;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 4px;
+}

@@ -1,0 +1,69 @@
+/* Stijl voor webshop pagina*/
+
+h1 {
+    color: rgb(0, 126, 205);
+    text-align: center;
+    margin: 20px 0;
+}
+
+.banner {
+    overflow: hidden; 
+    width: 100%;
+}
+
+.banner img {
+    top: 0; 
+    left: 0; 
+    width: 100%;
+    height: auto; 
+}
+
+.banner-inner {
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+/* Opmaak voor de filters */
+#filters {
+    text-align: center;
+    margin: 20px 0;
+}
+
+#categoryFilter {
+    padding: 5px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+/* Opmaak voor de productlijst */
+#productList {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.product {
+    width: 300px;
+    margin: 20px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.product span {
+    display: block;
+    margin: 5px 0;
+}
+
+.product button {
+    display: block;
+    margin-top: 10px;
+    padding: 5px 10px;
+    background-color: #007BFF;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+

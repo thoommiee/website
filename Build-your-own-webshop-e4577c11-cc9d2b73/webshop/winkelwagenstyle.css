@@ -1,0 +1,87 @@
+/* Style voor de winkelwageninhoud */
+
+h1 {
+    color: rgb(0, 126, 205);
+    text-align: center;
+    margin-top: 60px;
+    margin-bottom: 30px;
+}
+
+#cartContents {
+    background-color: #f9f9f9;
+    border: 1px solid #ccc;
+    padding: 20px;
+    margin-top: 20px;
+}
+  
+#cartContents ul {
+    list-style-type: none;
+    padding: 0;
+}
+  
+#cartContents li {
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* Stijl voor de winkelwageninhoud */
+.cart-item {
+    display: flex; 
+    justify-content: space-between; 
+    align-items: center; 
+    padding: 10px;
+    border-bottom: 1px solid #ccc; 
+}
+
+/* Stijl voor de verwijderknop */
+.removeFromCart {
+    background-color: #cc0000; 
+    color: #fff; 
+    border: none; 
+    padding: 5px 10px; 
+    cursor: pointer; 
+}
+
+.removeFromCart:hover {
+    background-color: #cc000068; 
+}
+  
+/* Style voor de lege winkelwagenknop */
+#emptyCart {
+    background-color: #717171;
+    color: #000;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    margin-top: 10px;
+    margin-left: 20px;
+}
+  
+#emptyCart:hover {
+    background-color: rgba(153, 153, 153, 0.253)171;
+ }
+  
+/* Style voor de bestelknop */
+#checkout {
+    background-color: #007bff; 
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    margin-top: 10px;
+    margin-left: 15px;
+}
+  
+#checkout:hover {
+    background-color: #0056b3; 
+} 
+
+.totalRow {
+    font-weight: bold; 
+    border-top: 1px solid #ccc;
+    margin-top: 10px; 
+    padding-top: 10px; 
+    text-align: right; 
+}

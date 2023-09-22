@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="../style.css">
+    <link rel="stylesheet" href="blogstyle.css">
+
+    <title>EversFit Nutrition</title>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg text-dark">
+        <img src="../images/Logozwartklein.png" alt="logozwart">
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+                <li class="nav-item active">
+                    <a class="nav-link" href="../index.html">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="../webshop/products.html">Webshop</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="blog.html">Blog</a>
+                </li>
+            </ul>
+            <ul class="navbar-nav ml-auto" id="navbarRight">
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        Account
+                    </a>
+                    <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="navbarDropdown">
+                        <li><a class="dropdown-item" href="../admin/admin.html">Producten Portal</a></li>
+                        <li><a class="dropdown-item" href="../admin/bestellingen.html">Bestellingen</a></li>
+                        <li><a class="dropdown-item" href="../admin/mijnblogs.html">Mijn Blog Posts</a></li>
+                        <li><a class="dropdown-item" href="../admin/settings.html">Settings</a></li>
+                        <li><a class="dropdown-item" href="#" data-bs-toggle="modal" data-bs-target="#logoutModal">Log Out</a></li>
+                    </ul>
+                </li>
+            </ul>
+            <div class="nav-item" id="winkelmand">
+                <a href="../webshop/winkelwagen.html" data-bs-toggle="tooltip" data-bs-placement="bottom" title="Winkelwagen">
+                    <i class="fa fa-shopping-cart"></i>
+                    <span class="badge bg-danger" id="cartCount">0</span>
+                </a>
+            </div>
+            </div>            
+        </div>
+    </nav>
+
+    <div class="top-banner" role="alert">
+        <div class="top-banner-inner">Snelle levering: Op werkdagen voor 20:00 besteld is morgen in huis!</div>
+    </div>
+
+   <!-- Modal voor uitloggenbevestiging -->
+    <div class="modal fade" id="logoutModal" tabindex="-1" aria-labelledby="logoutModalLabel" aria-hidden="true" data-bs-backdrop="static"> <!-- Voeg data-bs-backdrop toe en stel in op "static" -->
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="logoutModalLabel">Uitloggen</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    Weet je zeker dat je wilt uitloggen?
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Nee</button>
+                    <button type="button" class="btn btn-primary" data-bs-dismiss="modal">Ja</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="back-button">
+        <a href="blog.html"><- Terug</a>
+    </div>
+    
+    <h1 class="blogtitle">High protein dinner inspiration</h1>
+
+    <div class="container mt-4 transparent-bg">
+        <div class="row">
+            <!-- foto -->
+            <div class="col-md-6">
+                <div class="breaking">
+                    <img src="../images/blogfoto1.jpg" alt="recept foto" class="blogfoto">
+                </div>
+            </div>
+            <!-- Introtekst -->
+            <div class="col-md-6">
+                <div class="breaking">
+                    <p>
+                        <p>We kennen het allemaal de vraag wel, "Wat gaan we vanavond eten?" 
+                        Wij gaan je daarbij helpen met dit overheerlijke recept vol proteïne en groente!</p>
+                        <p>Ingrediënten:</p>
+                        <ul>
+                            <li>2 kipfilets</li>
+                            <li>1 kopje quinoa</li>
+                            <li>Assortiment van je favoriete groenten (bijvoorbeeld paprika, courgette, broccoli)</li>
+                            <li>Olijfolie</li>
+                            <li>Zout en peper naar smaak</li>
+                            <li>Verse kruiden, zoals rozemarijn en tijm</li>
+                          </ul>                          
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+            <!-- Inhoud -->
+    <div class="container-fluid mt-4 transparent-bg">
+    <div class="row">
+        <div class="col-md-8 offset-md-2">
+            <div class="breaking">
+                <p>
+                    <p>Is niet alleen een kans om je honger te stillen, maar ook om je lichaam te voeden met de juiste voedingsstoffen, vooral als je een sportieve levensstijl nastreeft. 
+                    Eén van de sleutelingrediënten voor een gezonde maaltijd die voldoet aan je eiwitbehoeften, is kipfilet.
+    	            Gegrilde Kipfilet met Quinoa en Geroosterde Groenten</p>
+                    <p>Tijdens het sporten worden je spieren belast en beschadigd. Om ze te herstellen en sterker te maken, heb je voldoende eiwitten nodig. 
+                    Dit heerlijke recept voor gegrilde kipfilet met quinoa en geroosterde groenten is een perfecte manier om je lichaam te voorzien van de eiwitten die het nodig heeft.</p>
+                    <p>Bereidingswijze:</p>
+                    <p>Verwarm de oven voor op 200°C.
+                    Bereid de quinoa volgens de instructies op de verpakking.
+                    Marineer de kipfilets met olijfolie, zout, peper en verse kruiden naar keuze. Dit geeft de kip een heerlijke smaak en helpt om de eiwitten optimaal op te nemen.
+                    Leg de gemarineerde kipfilets en gesneden groenten op een bakplaat en rooster ze in de voorverwarmde oven gedurende ongeveer 20-25 minuten, of tot de kip gaar is en de groenten mooi geroosterd zijn.
+                    Serveer de gegrilde kipfilets bovenop een bedje van quinoa en leg de geroosterde groenten eromheen. De quinoa voegt extra eiwitten en vezels toe aan je maaltijd, terwijl de geroosterde groenten een knapperige textuur en een scala aan voedingsstoffen bieden.
+                    Dit smakelijke gerecht zit boordevol eiwitten, vezels en vitaminen, waardoor het ideaal is voor zowel sporters als iedereen die een gezonde en voedzame maaltijd wil. Het zal niet alleen je smaakpapillen verrassen, maar ook je lichaam voeden na een intensieve workout. 
+                    Geniet van je high-protein dinner!</p>
+                </p>
+            </div>
+        </div>
+    </div>
+</div>
+    
+    <footer class="text-light mt-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12 col-lg-6">
+                    <img src="../images/Logowit.png" alt="logo">
+                </div>
+                <div class="col-md-12 col-lg-6">
+                    <div class="row">
+                        <div class="col-md-6">
+                            <div class="contact-info">
+                                <h5>Contact info:</h5>
+                                <a href="mailto:info@EversFit.com">info@EversFit.com</a>
+                                <p>Dam 15</p>
+                                <p>1081 XD, Amsterdam</p>
+                                <p>Nederland</p>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="newsletter-container text-md-end">
+                                <div class="block newsletter">
+                                    <div style="display: block;">
+                                        <div class="footer">
+                                            <div class="footer-modal-content">
+                                                <h3 style="margin: 0 0 5px 0;">
+                                                    Aanmelden voor de nieuwsbrief
+                                                </h3>
+                                                <div class="nieuwsbrief">
+                                                    <label for="field_email"></label>
+                                                    <input type="email" id="field_email" class="form-control" name="Email-adres" placeholder="Voer hier uw e-mailadres in">
+                                                </div>
+                                                <a style="margin: 10px 0 0 0;" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#thankYouModal">Inschrijven</a>
+                                            </div>
+                                            <div class="modal fade" id="thankYouModal" tabindex="-1" aria-labelledby="thankYouModalLabel" aria-hidden="true" data-bs-backdrop="static"> <!-- Voeg data-bs-backdrop toe en stel in op "static" -->
+                                                <div class="modal-dialog">
+                                                    <div class="modal-content text-dark">
+                                                        <div class="modal-header">
+                                                        <h5 class="modal-title" id="thankYouModalLabel">Aanmelding voltooid!</h5>
+                                                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                                        </div>
+                                                        <div class="modal-body">
+                                                            Bedankt voor uw inschrijving!
+                                                        </div>
+                                                        <div class="modal-footer">
+                                                            <button type="button" class="btn btn-primary" data-bs-dismiss="modal">Sluiten</button>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    
+<!-- Bootstrap scripts -->
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/2.11.6/umd/popper.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.min.js"></script>
+
+<script src="../webshop/winkelwagencontent.js"></script>
+
+</body>
+</html>
+
+
+
+
+
+

@@ -1,0 +1,169 @@
+/* Stijl voor admin pagina*/
+
+/* Stijl voor de filter + productkaarten */
+h1 {
+    color: rgb(0, 126, 205);
+    text-align: center;
+    margin: 20px 0;
+}
+
+#filters {
+    margin-top: 25px;
+    margin-bottom: 30px;
+    margin-left: 15px;
+}
+
+/* Stijl voor het nieuwe product toevoegen formulier */
+.dropdown {
+    margin-top: 25px;
+    margin-bottom: 30px;
+    margin-left: 15px;
+}
+
+#newProductForm {
+    margin-top: 20px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    background-color: #f9f9f9;
+}
+
+#newProductForm h2 {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+#addProductForm label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+#addProductForm input[type="text"],
+#addProductForm input[type="number"] {
+    width: 100%;
+    padding: 5px;
+    margin-bottom: 10px;
+}
+
+#addProductForm button[type="submit"] {
+    cursor: pointer;
+    background-color: #007BFF;
+    color: #fff;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 4px;
+}
+
+#addProductForm button[type="submit"]:hover {
+    background-color: #0056b3;
+}
+
+/* Stijl voor het nieuwe producten*/
+
+#productList {
+    list-style: none;
+    padding: 0;
+}
+
+.product {
+    border: 1px solid #ccc;
+    margin: 10px;
+    padding: 10px;
+    background-color: #f9f9f9;
+}
+
+.product span {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.addToBasket {
+    background-color: green;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+    margin-right: 10px;
+}
+
+.addToBasket:hover {
+    background-color: rgba(0, 128, 0, 0.215);
+}
+
+.removeFromBasket {
+    background-color: red;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+    margin-right: 10px;
+}
+
+.removeFromBasket:hover {
+    background-color: rgba(255, 0, 0, 0.237);
+}
+
+.editProduct {
+    background-color: rgb(156, 156, 156);
+    color: black;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+
+.editProduct:hover {
+    background-color: rgba(132, 132, 132, 0.25);
+}
+
+.editProductForm {
+    background-color: #f2f2f2; 
+    border: 1px solid #ccc; 
+    margin-top: 10px;
+    padding: 15px; 
+    border-radius: 5px; 
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); 
+    color: #333; 
+}
+
+.editProductForm:hover {
+    background-color: #e0e0e0; 
+}
+
+.editProductForm label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.editProductForm input[type="text"],
+.editProductForm input[type="number"] {
+    width: 30%;
+    padding: 5px;
+    margin-bottom: 10px;
+}
+
+#saveEditButton {
+    margin-top: 10px;
+    cursor: pointer;
+    background-color: #007BFF;
+    color: #fff;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 4px;
+}
+
+#saveEditButton:hover {
+    background-color: #0056b3;
+}
+
+
+#resetProductsButton {
+    margin-top: 35px;
+    margin-bottom: 30px;
+    margin-left: 15px;
+    cursor: pointer;
+    background-color: #11005a;
+    color: #fff;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 4px;
+}
+

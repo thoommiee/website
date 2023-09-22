@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="../style.css">
+    <link rel="stylesheet" href="blogstyle.css">
+
+    <title>EversFit Nutrition</title>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg text-dark">
+        <img src="../images/Logozwartklein.png" alt="logozwart">
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+                <li class="nav-item active">
+                    <a class="nav-link" href="../index.html">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="../webshop/products.html">Webshop</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="blog.html">Blog</a>
+                </li>
+            </ul>
+            <ul class="navbar-nav ml-auto" id="navbarRight">
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        Account
+                    </a>
+                    <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="navbarDropdown">
+                        <li><a class="dropdown-item" href="../admin/admin.html">Producten Portal</a></li>
+                        <li><a class="dropdown-item" href="../admin/bestellingen.html">Bestellingen</a></li>
+                        <li><a class="dropdown-item" href="../admin/mijnblogs.html">Mijn Blog Posts</a></li>
+                        <li><a class="dropdown-item" href="../admin/settings.html">Settings</a></li>
+                        <li><a class="dropdown-item" href="#" data-bs-toggle="modal" data-bs-target="#logoutModal">Log Out</a></li>
+                    </ul>
+                </li>
+            </ul>
+            <div class="nav-item" id="winkelmand">
+                <a href="../webshop/winkelwagen.html" data-bs-toggle="tooltip" data-bs-placement="bottom" title="Winkelwagen">
+                    <i class="fa fa-shopping-cart"></i>
+                    <span class="badge bg-danger" id="cartCount">0</span>
+                </a>
+            </div>
+            </div>            
+        </div>
+    </nav>
+
+    <div class="top-banner" role="alert">
+        <div class="top-banner-inner">Snelle levering: Op werkdagen voor 20:00 besteld is morgen in huis!</div>
+    </div>
+
+   <!-- Modal voor uitloggenbevestiging -->
+    <div class="modal fade" id="logoutModal" tabindex="-1" aria-labelledby="logoutModalLabel" aria-hidden="true" data-bs-backdrop="static"> 
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="logoutModalLabel">Uitloggen</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    Weet je zeker dat je wilt uitloggen?
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Nee</button>
+                    <button type="button" class="btn btn-primary" data-bs-dismiss="modal">Ja</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="back-button">
+        <a href="blog.html"><- Terug</a>
+    </div>
+    
+    <h1 class="blogtitle">Monday meal prep</h1>
+
+    <div class="container mt-4 transparent-bg">
+        <div class="row">
+            <!-- foto -->
+            <div class="col-md-6">
+                <div class="breaking">
+                    <img src="../images/blogfoto2.png" alt="mealprepfoto" class="blogfoto">
+                </div>
+            </div>
+            <!-- Introtekst -->
+            <div class="col-md-6">
+                <div class="breaking">
+                    <p>
+                        <p>Alle voedingsstoffen binnenkrijgen gedurende de week? Zorg ervoor dat je op elk moment van de dag de juiste brandstof hebt door slim voorbereid op pad te gaan. 
+                        In deze blog delen we enkele handige tips om je op weg te helpen!</p>
+                        <p>Ingrediënten:</p>
+                        <ul>
+                            <li>Kopje volkoren rijst</li>
+                            <li>2 kopjes water</li>
+                            <li>Eetlepel olijfolie</li>
+                            <li>1 ui, fijngehakt</li>
+                            <li>2 teentjes knoflook, fijngehakt</li>
+                            <li>1 rode paprika, in blokjes gesneden</li>
+                            <li>1 gele paprika, in blokjes gesneden</li>
+                            <li>1 courgette, in plakjes gesneden</li>
+                            <li>1 kopje broccoli, in kleine roosjes</li>
+                            <li>1 kopje bloemkool, in kleine roosjes</li>
+                            <li>1 blikje zwarte bonen, uitgelekt en afgespoeld</li>
+                            <li>Zout en peper naar smaak</li>
+                            <li>1 theelepel paprikapoeder</li>
+                            <li>1 theelepel komijnpoeder</li>
+                            <li>Optioneel: gehakte verse kruiden zoals koriander of peterselie voor garnering</li>
+                        </ul>  
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+            <!-- Inhoud -->
+    <div class="container-fluid mt-4 transparent-bg">
+    <div class="row">
+        <div class="col-md-8 offset-md-2">
+            <div class="breaking">
+                <p>
+                    <p> Drukke week voor de boeg? Geen zorgen! Hier is een heerlijk en eenvoudig recept dat je op maandag kunt bereiden en gedurende 5 dagen moeiteloos kunt opwarmen. 
+                    Dit gerecht zit boordevol voedzame ingrediënten zoals rijst en een overvloed aan groenten. Hier is hoe je een heerlijke groente-rijstschotel kunt voorbereiden die de hele week lang voor energie zorgt:</p>
+                    <p>Bereidingswijze:</p>
+                    <p>Kook de volkoren rijst volgens de aanwijzingen op de verpakking in 2 kopjes water. Zet apart wanneer het gaar is.
+                    Verhit de olijfolie in een grote koekenpan op middelhoog vuur. Voeg de fijngehakte ui en knoflook toe en bak ze tot ze zacht en geurig zijn.
+                    Voeg de paprika's, courgette, broccoli en bloemkool toe aan de pan. Roerbak gedurende 5-7 minuten tot de groenten beetgaar zijn.
+                    Voeg de uitgelekte zwarte bonen toe aan de groenten en verwarm ze even mee.
+                    Breng de groenten op smaak met zout, peper, paprikapoeder en komijnpoeder.
+                    Voeg de gekookte rijst toe aan de groenten en meng alles goed door elkaar. Laat het gerecht nog een paar minuten sudderen zodat de smaken zich vermengen.
+                    Serveer de groente-rijstschotel warm, en garneer indien gewenst met gehakte verse kruiden.
+                    Nu heb je een heerlijk gerecht dat niet alleen voedzaam is, maar ook snel en eenvoudig op te warmen is gedurende de hele week. Happy meal prepping en veel succes met je sportieve lifestyle!</p>
+                </p>
+            </div>
+        </div>
+    </div>
+</div>
+    
+    <footer class="text-light mt-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12 col-lg-6">
+                    <img src="../images/Logowit.png" alt="logo">
+                </div>
+                <div class="col-md-12 col-lg-6">
+                    <div class="row">
+                        <div class="col-md-6">
+                            <div class="contact-info">
+                                <h5>Contact info:</h5>
+                                <a href="mailto:info@EversFit.com">info@EversFit.com</a>
+                                <p>Dam 15</p>
+                                <p>1081 XD, Amsterdam</p>
+                                <p>Nederland</p>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="newsletter-container text-md-end">
+                                <div class="block newsletter">
+                                    <div style="display: block;">
+                                        <div class="footer">
+                                            <div class="footer-modal-content">
+                                                <h3 style="margin: 0 0 5px 0;">
+                                                    Aanmelden voor de nieuwsbrief
+                                                </h3>
+                                                <div class="nieuwsbrief">
+                                                    <label for="field_email"></label>
+                                                    <input type="email" id="field_email" class="form-control" name="Email-adres" placeholder="Voer hier uw e-mailadres in">
+                                                </div>
+                                                <a style="margin: 10px 0 0 0;" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#thankYouModal">Inschrijven</a>
+                                            </div>
+                                            <div class="modal fade" id="thankYouModal" tabindex="-1" aria-labelledby="thankYouModalLabel" aria-hidden="true" data-bs-backdrop="static"> <!-- Voeg data-bs-backdrop toe en stel in op "static" -->
+                                                <div class="modal-dialog">
+                                                    <div class="modal-content text-dark">
+                                                        <div class="modal-header">
+                                                        <h5 class="modal-title" id="thankYouModalLabel">Aanmelding voltooid!</h5>
+                                                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                                        </div>
+                                                        <div class="modal-body">
+                                                            Bedankt voor uw inschrijving!
+                                                        </div>
+                                                        <div class="modal-footer">
+                                                            <button type="button" class="btn btn-primary" data-bs-dismiss="modal">Sluiten</button>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    
+<!-- Bootstrap scripts -->
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/2.11.6/umd/popper.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.min.js"></script>
+
+<script src="../webshop/winkelwagencontent.js"></script>
+
+</body>
+</html>
+
+
+
+
+
+

@@ -1,0 +1,75 @@
+/* Algemene styling */
+
+/* Stijl voor de navigatiebalk */
+.navbar {
+    background-color: #FFFFFF;
+    color: black;
+}
+
+.navbar img {
+    max-width: 100%; 
+    max-height: 100%;
+    margin-left: 20px;
+    margin-right: 10px;
+}
+
+#navbarDropdown {
+    margin-right: 20px;
+}
+
+#navbarRight {
+    margin-left: auto;
+}
+
+#winkelmand {
+    margin-right: 20px;
+}
+
+/* Stijl voor de topbanner */
+.top-banner {
+    background-color: #006905dc;
+    color: #FFFFFF;
+    text-align: center;
+    height: 4em;
+    
+}
+
+.top-banner-inner {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+}
+
+/* Stijl voor homepage tekst*/
+#welkomstekst {
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 75px;
+}
+
+#welkomstitel {
+    color: rgb(0, 126, 205);
+    text-align: center;
+    margin-top: 100px;
+    margin-bottom: 75px;
+}
+
+/* Stijl voor de pagina's die underconstruction zijn */
+.comingsoon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    margin-top: 150px;
+}
+
+/* Stijl voor de footer */
+footer {
+    background-color: #006905dc;
+}
+
+footer img {
+    margin-top: 25px;
+}
+

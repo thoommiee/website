@@ -1,0 +1,122 @@
+[
+    {
+        "id": "11001",
+        "name": "Pre-Workout Watermeloen",
+        "category": "Pre-Workout",
+	    "size": "300 gram",
+	    "price": "20.00",
+        "amount": 50
+    },
+    {
+        "id": "11002",
+        "name": "Pre-Workout Mango",
+        "category": "Pre-Workout",
+	    "size": "300 gram",
+	    "price": "20.00",
+        "amount": 45
+    },
+    {
+        "id": "11003",
+        "name": "Pre-Workout Sinaasappel",
+        "category": "Pre-Workout",
+	    "size": "300 gram",
+	    "price": "20.00",
+        "amount": 55
+    },
+    {
+        "id": "11004",
+        "name": "Creatine",
+        "category": "Creatine",
+	    "size": "300 gram",
+	    "price": "20.00",
+        "amount": 38
+    },
+    {
+        "id": "11005",
+        "name": "Whey-Protein Vanille",
+        "category": "Whey-Protein",
+	    "size": "1300 gram",
+	    "price": "18.95",
+        "amount": 40
+    },
+    {
+        "id": "11006",
+        "name": "Whey-Protein Aardbei",
+        "category": "Whey-Protein",
+	    "size": "1300 gram",
+	    "price": "18.95",
+        "amount": 45
+    },
+    {
+        "id": "11007",
+        "name": "Whey-Protein Salted Caramel",
+        "category": "Whey-Protein",
+	    "size": "1300 gram",
+	    "price": "18.95",
+        "amount": 40
+    },
+    {
+        "id": "11008",
+        "name": "Multivitamine",
+        "category": "Voedings Supplement",
+	    "size": "120 caps",
+	    "price": "9.99",
+        "amount": 48
+    },
+    {
+        "id": "11009",
+        "name": "BBCA",
+        "category": "Voedings Supplement",
+        "size": "120 caps",
+	    "price": "11.99",
+        "amount": 42
+    },
+    {
+        "id": "11010",
+        "name": "Magnesium",
+        "category": "Voedings Supplement",
+        "size": "120 caps",
+	    "price": "9.99",
+        "amount": 42
+    },
+    {
+        "id": "11011",
+        "name": "Zink",
+        "category": "Voedings Supplement",
+        "size": "120 caps",
+	    "price": "9.99",
+        "amount": 48
+    },
+{
+        "id": "11012",
+        "name": "Sporthandoek",
+        "category": "Trainingsmateriaal",
+        "size": "one size",
+	    "price": "19.95",
+        "amount": 51
+    },
+{
+        "id": "11013",
+        "name": "Waterfles",
+        "category": "Trainingsmateriaal",
+        "size": "1000 ml",
+	    "price": "17,95",
+        "amount": 48
+    },
+{
+        "id": "11014",
+        "name": "Sportshaker RVS",
+        "category": "Trainingsmateriaal",
+        "size": "750 ml",
+	    "price": "12.95",
+        "amount": 123
+    },
+{
+        "id": "11015",
+        "name": "Sportshaker RVS zwart",
+        "category": "Trainingsmateriaal",
+        "size": "750 ml",
+	    "price": "12.95",
+        "amount": 111
+    }
+]

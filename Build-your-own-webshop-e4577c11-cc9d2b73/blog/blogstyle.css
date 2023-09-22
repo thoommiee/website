@@ -1,0 +1,40 @@
+/* Stijl voor blogs pagina*/
+h1 {
+    color: rgb(0, 126, 205);
+    text-align: center;
+    margin: 20px 0;
+}
+
+.back-button {
+    position: absolute;
+    top: 160px;
+    left: 10px;
+}
+
+.back-button a {
+    text-decoration: none;
+    background-color: #007bff;
+    color: #fff;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+.back-button a:hover {
+    background-color: #0056b3;
+}
+
+.custom-card {
+    min-height: 650px; 
+}
+
+.blogtitle {
+    text-align: center;
+    margin-top: 50px;
+    color: rgb(0, 126, 205);
+}
+
+.blogfoto {
+    max-width: auto;
+    max-height: 450px;
+    margin-left: 100px;
+}

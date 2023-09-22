@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="../style.css">
+    <link rel="stylesheet" href="productsstyle.css">
+    
+    <title>EversFit Nutrition</title>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg text-dark">
+        <img src="../images/Logozwartklein.png" alt="logozwart">
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+                <li class="nav-item active">
+                    <a class="nav-link" href="../index.html">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="products.html">Webshop</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="../blog/blog.html">Blog</a>
+                </li>
+            </ul>
+            <ul class="navbar-nav ml-auto" id="navbarRight">
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        Account
+                    </a>
+                    <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="navbarDropdown">
+                        <li><a class="dropdown-item" href="../admin/admin.html">Producten Portal</a></li>
+                        <li><a class="dropdown-item" href="../admin/bestellingen.html">Bestellingen</a></li>
+                        <li><a class="dropdown-item" href="../admin/mijnblogs.html">Mijn Blog Posts</a></li>
+                        <li><a class="dropdown-item" href="../admin/settings.html">Settings</a></li>
+                        <li><a class="dropdown-item" href="#" data-bs-toggle="modal" data-bs-target="#logoutModal">Log Out</a></li>
+                    </ul>
+                </li>
+            </ul>
+            <div class="nav-item" id="winkelmand">
+                <a href="winkelwagen.html" data-bs-toggle="tooltip" data-bs-placement="bottom" title="Winkelwagen">
+                    <i class="fa fa-shopping-cart"></i>
+                    <span class="badge bg-danger" id="cartCount">0</span>
+                </a>
+            </div>
+            </div>            
+        </div>
+    </nav>
+    
+    <div class="top-banner" role="alert">
+        <div class="top-banner-inner">Snelle levering: Op werkdagen voor 20:00 besteld is morgen in huis!</div>
+    </div>
+
+    <div class="banner" role="alert">
+        <div class="banner-inner">
+            <img src="../images/banner.png" alt="banner">
+        </div>
+    </div>
+
+   <!-- Modal voor uitloggenbevestiging -->
+    <div class="modal fade" id="logoutModal" tabindex="-1" aria-labelledby="logoutModalLabel" aria-hidden="true" data-bs-backdrop="static"> <!-- Voeg data-bs-backdrop toe en stel in op "static" -->
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="logoutModalLabel">Uitloggen</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    Weet je zeker dat je wilt uitloggen?
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Nee</button>
+                    <button type="button" class="btn btn-primary" data-bs-dismiss="modal">Ja</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <h1>Webshop</h1>
+
+    <div id="filters">
+        <label for="categoryFilter">Filter:</label>
+        <select id="categoryFilter">
+            <option value="All">Alle categorieën</option>
+            <option value="Pre-Workout">Pre-Workout</option>
+            <option value="Creatine">Creatine</option>
+            <option value="Whey-Protein">Whey-Protein</option>
+            <option value="Voedings Supplement">Voedings Supplement</option>
+            <option value="Trainingsmateriaal">Trainingsmateriaal</option>
+        </select>
+    </div>
+
+    <div id="productList"></div>
+
+
+<footer class="text-light mt-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12 col-lg-6">
+                    <img src="../images/Logowit.png" alt="logo">
+                </div>
+                <div class="col-md-12 col-lg-6">
+                    <div class="row">
+                        <div class="col-md-6">
+                            <div class="contact-info">
+                                <h5>Contact info:</h5>
+                                <a href="mailto:info@EversFit.com">info@EversFit.com</a>
+                                <p>Dam 15</p>
+                                <p>1081 XD, Amsterdam</p>
+                                <p>Nederland</p>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="newsletter-container text-md-end">
+                                <div class="block newsletter">
+                                    <div style="display: block;">
+                                        <div class="footer">
+                                            <div class="footer-modal-content">
+                                                <h3 style="margin: 0 0 5px 0;">
+                                                    Aanmelden voor de nieuwsbrief
+                                                </h3>
+                                                <div class="nieuwsbrief">
+                                                    <label for="field_email"></label>
+                                                    <input type="email" id="field_email" class="form-control" name="Email-adres" placeholder="Voer hier uw e-mailadres in">
+                                                </div>
+                                                <a style="margin: 10px 0 0 0;" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#thankYouModal">Inschrijven</a>
+                                            </div>
+                                            <div class="modal fade" id="thankYouModal" tabindex="-1" aria-labelledby="thankYouModalLabel" aria-hidden="true" data-bs-backdrop="static"> <!-- Voeg data-bs-backdrop toe en stel in op "static" -->
+                                                <div class="modal-dialog">
+                                                    <div class="modal-content text-dark">
+                                                        <div class="modal-header">
+                                                        <h5 class="modal-title" id="thankYouModalLabel">Aanmelding voltooid!</h5>
+                                                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                                        </div>
+                                                        <div class="modal-body">
+                                                            Bedankt voor uw inschrijving!
+                                                        </div>
+                                                        <div class="modal-footer">
+                                                            <button type="button" class="btn btn-primary" data-bs-dismiss="modal">Sluiten</button>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+</footer>
+    
+<!-- Bootstrap scripts -->
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/2.11.6/umd/popper.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.min.js"></script>
+
+<script src="products.js"></script>
+<script src="winkelwagencontent.js"></script>
+
+</body>
+</html>
+
+
+
+
+
+
